@@ -1,0 +1,116 @@
+h1 {
+    color: #f2f6f6;
+
+}
+
+
+.Admin {
+    cursor: pointer;
+    color: blue;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('BG.jpg');
+    /* Path to your background image */
+    background-size: cover;
+    background-color: #90b1c0;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #202529;
+    /* Semi-transparent black background for better contrast */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    /* Position the header relative to the viewport */
+    top: 0;
+    /* Align the header to the top of the viewport */
+    left: 0;
+    /* Align the header to the left of the viewport */
+    width: 100%;
+    /* Set the width of the header to cover the entire viewport */
+    z-index: 9999;
+    /* Ensure the header appears above other elements */
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px !important;
+    margin: auto;
+    /* Set top and bottom margins to auto */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.33);
+    /* Semi-transparent white background for better readability */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    /* Center the container both horizontally and vertically */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-group {
+    flex:2;
+}
+
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.login-btn {
+    padding-left: 30%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.footer {
+    background-color: #202529;
+    /* Semi-transparent black background for better contrast */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
